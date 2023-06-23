@@ -26,10 +26,21 @@ after setting up the .env you need to execute
 
 3 Change Runtime to GPU as described here https://colab.research.google.com/notebooks/pro.ipynb
 
-4) Start writing code as shown here
+4 Start writing code as shown here
 
 ![Screenshot](Screen1.JPG)
 
+```
+!git clone https://github.com/vishalmysore/llm-learning.git
+```
+
+```
+%cd llm-learning/
+```
+
+```
+!pip install -r requirements.txt
+```
 
 
 
