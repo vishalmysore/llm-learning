@@ -28,7 +28,7 @@ after setting up the .env you need to execute
 
 4) Start writing code as shown here
 
-![alt text](Screen1.jpg)
+![Screenshot](Screen1.JPG)
 
 
 
