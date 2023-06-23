@@ -116,3 +116,5 @@ wrapt==1.14.1
 XlsxWriter==3.0.9
 yarl==1.8.2
 zstandard==0.20.0
+pypdf==3.11.0
+docx2txt==0.8
