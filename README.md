@@ -1,3 +1,14 @@
+# llm-Learning
+
+You can follow all the basic tutorials to learn about LLM from the base GIT URL
+
+Next you can execute this custom python scripts to get the market data from Yahoo 
+
+```
+!python marketdata.py
+```
+
+
 # llm-python
 A set of instructional materials, code samples and Python scripts featuring LLMs (GPT etc) through interfaces like llamaindex, langchain, Chroma (Chromadb), Pinecone etc. Mainly used to store reference code for my LangChain tutorials on YouTube. 
 
