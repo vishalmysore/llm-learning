@@ -4,9 +4,33 @@ You can follow all the basic tutorials to learn about LLM from the base GIT URL
 
 Next you can execute this custom python scripts to get the market data from Yahoo 
 
+This step is optional if you need to get stock data for additional symbols else you can work with the existing data in news/Stocks.csv
+
+```
+!python getstockdata.py
+```
+
+Before you execute the next command you need to create .env file as described in bottom of this page. 
+after setting up the .env you need to execute 
+
 ```
 !python marketdata.py
 ```
+
+
+### Colab setup
+
+1 Sign up on https://colab.research.google.com/
+
+2 Get a paid subscribtion if you need to use powerfull GPU
+
+3 Change Runtime to GPU as described here https://colab.research.google.com/notebooks/pro.ipynb
+
+4) Start writing code as shown here
+
+![alt text](Screen1.jpg)
+
+
 
 
 # llm-python
