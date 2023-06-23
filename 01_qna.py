@@ -6,13 +6,13 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain import OpenAI
-
+from langchain.document_loaders import PyPDFLoader
 load_dotenv()
 embeddings = OpenAIEmbeddings()
 
 # loader = TextLoader('news/summary.txt')
-loader = DirectoryLoader('news', glob="**/*.txt")
-
+# loader = DirectoryLoader('news', glob="**/*.pdf")
+loader = PyPDFLoader('news/Chaos.pdf')
 documents = loader.load()
 print(len(documents))
 text_splitter = CharacterTextSplitter(chunk_size=2500, chunk_overlap=0)
@@ -30,7 +30,6 @@ def query(q):
     print("Query: ", q)
     print("Answer: ", qa.run(q))
 
-query("What are the effects of legislations surrounding emissions on the Australia coal market?")
-query("What are China's plans with renewable energy?")
-query("Is there an export ban on Coal in Indonesia? Why?")
-query("Who are the main exporters of Coal to China? What is the role of Indonesia in this?")
+query("Why Chaos testing is impportant for Financial industry?")
+query("Who Wrote this article?")
+query("How many likes did it get?")
